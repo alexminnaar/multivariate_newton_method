@@ -4,11 +4,11 @@ Given a function that takes a vector input and returns a scalar, Newton's method
   `def f(x):
     return 12*x[0]**2+x[1]-12*x[0]*x[1]`
   
-  #initial guess  
+  `#initial guess  
   y=[-2,7]
   newt=multivariate_newton(f,y)
   newt.newton_method()
-  newt.critical_point()
+  newt.critical_point()`
 
 
 
