@@ -1,6 +1,5 @@
 import numpy as np
 import numdifftools as nd
-import scipy.optimize as so
 
 class multivariate_newton(object):
 
